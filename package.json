@@ -1,0 +1,23 @@
+{
+  "name": "react-native-template-common",
+  "version": "0.0.1",
+  "description": "a template for react0native ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suwu150/react-native-template-common.git"
+  },
+  "keywords": [
+    "react-native",
+    "template"
+  ],
+  "author": "jkwu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/suwu150/react-native-template-common/issues"
+  },
+  "homepage": "https://github.com/suwu150/react-native-template-common#readme"
+}
