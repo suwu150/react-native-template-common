@@ -17,7 +17,7 @@ const instructions = Platform.select({
 class Login extends Component {
 
   static navigationOptions = {
-    title: 'RoAny Template'
+    title: 'react-native-template-common'
   };
 
   toPage = () => {
@@ -31,10 +31,10 @@ class Login extends Component {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          欢迎来到 RoAny Template!
+          欢迎来到 react-native-template-common!
         </Text>
         <Text style={styles.instructions}>
-          进入src目录，开始开发自己的RoAnyApp
+          进入src目录，开始开发自己的 react-native
         </Text>
         <Text style={styles.instructions}>
           {instructions}
@@ -45,6 +45,9 @@ class Login extends Component {
           color="#841584"
           accessibilityLabel="Learn more about this purple button"
         />
+        <Text style={styles.instructions}>
+          这是首页面，点击将会跳转到第二个页面
+        </Text>
       </View>
     );
   }

@@ -6,29 +6,22 @@ import {
   View
 } from 'react-native';
 
-const instructions = Platform.select({
-  ios: 'Press Cmd+R to reload,\n' +
-  'Cmd+D or shake for dev menu',
-  android: 'Double tap R on your keyboard to reload,\n' +
-  'Shake or press menu button for dev menu',
-});
-
 class Home extends Component{
   static navigationOptions = {
-    title: 'RoAny Template'
+    title: 'react-native-template-common'
   };
 
   render() {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          欢迎来到 RoAny Template!
+          欢迎来到 react-native-template-common!
         </Text>
         <Text style={styles.instructions}>
-          进入src目录，开始开发自己的RoAnyApp
+          进入src目录，开始开发自己的app
         </Text>
         <Text style={styles.instructions}>
-          {instructions}
+          这是第二个页面，没有点击事件
         </Text>
       </View>
     );
