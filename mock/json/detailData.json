@@ -1,0 +1,40 @@
+{
+  "gender": [
+    {
+      "code": "0",
+      "name": "未知的性别",
+      "enable": "Y",
+      "summary": ""
+    },
+    {
+      "code": "1",
+      "name": "男",
+      "enable": "Y",
+      "summary": ""
+    },
+    {
+      "code": "2",
+      "name": "女",
+      "enable": "Y",
+      "summary": ""
+    },
+    {
+      "code": "5",
+      "name": "女性改（变）为男性",
+      "enable": "Y",
+      "summary": ""
+    },
+    {
+      "code": "6",
+      "name": "男性改（变）为女性",
+      "enable": "Y",
+      "summary": ""
+    },
+    {
+      "code": "9",
+      "name": "未说明的性别",
+      "enable": "Y",
+      "summary": ""
+    }
+  ]
+}
