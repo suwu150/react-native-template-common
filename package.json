@@ -1,6 +1,6 @@
 {
   "name": "react-native-template-common",
-  "version": "0.0.10",
+  "version": "1.0.0",
   "description": "a template for react0native ",
   "main": "index.js",
   "scripts": {

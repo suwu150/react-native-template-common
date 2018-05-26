@@ -8,17 +8,11 @@
 import { serializeParam } from '../utils/formatUtil';
 import NetConfig from './netConfig';
 
-export const baiduOcrAi = 'https://aip.baidubce.com/rest/2.0/ocr/v1/general_basic';
-
 export const NetLink = {
   login: '/public/logon',
-  queryInfo: `${NetConfig.BasePath}/OWController/queryInfo`,
+  queryInfo: `${NetConfig.BasePath}/queryInfo`,
 };
 
-// http://192.168.64.227:8080/amix/workflow/process/workflowTask
-
-
-// leasing/webapi/resf/OWController/queryInfo?dono=EntCustomerDetail
 export const queryInfo = (param) => {
   const paramX = param ? serializeParam(param) : '1=1';
   console.log(`${NetLink.queryInfo}?${paramX}`);

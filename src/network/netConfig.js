@@ -1,9 +1,7 @@
 
 const nativeConfig = {
-  Host: 'http://192.168.137.1:3003/lease',
+  Host: 'http://192.168.137.1:3003/example',
   BasePath: '/example',
-  // OuterHost: 'https://wxcs.s1.natapp.cc',
-  // BaiduMapHost: 'http://api.map.baidu.com'
 };
 
 export default nativeConfig;
